@@ -5,9 +5,9 @@ sys.path.append(str(currentPath)+"\\lib")
 
 # print(str(currentPath)+"\\lib")
 
-import linearRegression as lr
+import linearRegression
 
-lr.h(1)
+
 
 # (1)?
 
