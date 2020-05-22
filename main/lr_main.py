@@ -5,9 +5,14 @@ sys.path.append(str(currentPath)+"\\lib")
 
 # print(str(currentPath)+"\\lib")
 
-import linearRegression
+from linearRegression import *
 
+lr = linearRegression()
 
+lr.x = 1
+lr.y = 0.5
+
+print(lr.h(10))
 
 # (1)?
 
